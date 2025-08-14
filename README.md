@@ -3,14 +3,15 @@ Your repostiory should be named something like `async-final-project-color-name`
 Example: `async-final-project-teal-Anas`
 
 ## Dataset
-[Dataset Name](https://www.example.com/link-to-dataset)
+[California Social Determinants of Health (SDOH):
+Merging health, social & environmental metrics across CA ZIP codes for community] (https://www.kaggle.com/datasets/evanmoh/california-social-determinants-of-health-sdoh?resource=download)
 
 ## Why did I chose this dataset?
 
-[Placeholder for answer]
+I chose the California Social Determinants of Health (SDOH) dataset because California’s unique socioeconomic landscape---from newly wealthy tech billionaires to working-class families---offers an interesting case study in healthcare equity. While these groups live different realities, both share the universal need for quality healthcare that addresses their specific needs. The dataset captures critical factors such as demographics, uninsured populations, healthcare provider access, and environmental influences like air quality, all of which can shape health outcomes. This set of variables allows for a nuanced analysis of how social determinants can impact healthcare access and utilization across California’s diverse communities, highlighting disparities and guiding data-driven policy solutions.
 
 ## Progress
-- [ ] Picked dataset
+- [ YES ] Picked dataset
 - [ ] Defined 10 questions
 - [ ] Answered 10 questions using Pandas
 - [ ] Added at least one data visualization (using Matplotlib and/or Seaborn) to each single question
