@@ -13,14 +13,14 @@ I chose the California Social Determinants of Health (SDOH) dataset because Cali
 ## Progress
 - [ YES ] Picked dataset
 - [ YES ] Defined 10 questions
-- [ ] Answered 10 questions using Pandas
+- [NOT ] Answered 10 questions using Pandas
 - [ ] Added at least one data visualization (using Matplotlib and/or Seaborn) to each single question
 - [ ] Prepared presentation slides to present at graduation
 
 ## Questions
-- [ ] Question 1: Which regions in California have the highest percentage of uninsured residents?
+- [ ] Question 1: Which zipcode has the largest percentage of "english not spoken well" population? 
   - Answer: [Placeholder for answer]
-  - Visualization: ![Q1 Visualization](https://example.com/path-to-image-1.png) : *** Choropleth map by ZIP code showing uninsured rates.
+  - Visualization: ![Q1 Visualization](https://example.com/path-to-image-1.png) : *** Choropleth map by ZIP code showing uninsured rates. (bar groph most high regions with this issue)
 
 - [ ] Question 2:  How does median household income relate to the percentage of uninsured residents across California ZIP codes?
   - Answer: [Placeholder for answer]
