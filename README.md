@@ -13,50 +13,54 @@ I chose the California Social Determinants of Health (SDOH) dataset because Cali
 ## Progress
 - [ YES ] Picked dataset
 - [ YES ] Defined 10 questions
-- [NOT ] Answered 10 questions using Pandas
-- [ ] Added at least one data visualization (using Matplotlib and/or Seaborn) to each single question
-- [ ] Prepared presentation slides to present at graduation
+- [ YES ] Answered 10 questions using Pandas
+- [ YES ] Added at least one data visualization (using Matplotlib and/or Seaborn) to each single question
+- [ NA ] Prepared presentation slides to present at graduation
 
 ## Questions
-- [ ] Question 1: Which zipcode has the largest percentage of "english not spoken well" population? 
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q1 Visualization](https://example.com/path-to-image-1.png) : *** Choropleth map by ZIP code showing uninsured rates. (bar groph most high regions with this issue)
+- [+] Question 1: Which ZIP code(s) have the largest population of people who speak English not well?
+  - Answer: ZIP code 90011 has the largest population of residents who speak English “not well,” with approximately 19,500 people. Other ZIP codes with large limited-English populations include 90202 and 90201 (both around 17,000 people). Most of the top ZIP codes are concentrated in Los Angeles County.
+  - Visualization: ![Q1 Visualization]
+  
+- [+] Question 2: Which ZIP code(s) has the highest percentage of residents reporting Fair/Poor health? 
+  - Answer: ZIP code 92227 in Imperial County, CA, has the highest percentage of individuals reporting 'Fair or Poor Health,' with 24% of the county's residents reporting this status. Furthermore, the top 20 ZIP codes also have very similar '% Fair or Poor Health'. 
+  - Visualization: ![Q2 Visualization]
 
-- [ ] Question 2:  How does median household income relate to the percentage of uninsured residents across California ZIP codes?
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q2 Visualization](https://example.com/path-to-image-2.png) :**scatter plot with a regression line to make a conclsuion of a relation between unisured % and income..
-
-- [ ] Question 3: How does the percentage of adults reporting fair/poor health vary by income quartile?
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q4 Visualization](https://example.com/path-to-image-4.png) ** show poor health and income. Bar plot (X = income quartile, Y = % fair/poor health)
-
-
-- [ ] Question 4: Do lower-income ZIP codes have higher Healthcare Professional Shortage Area (HPSA) scores?
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q3 Visualization](https://example.com/path-to-image-3.png) : **Comparing HPSA scores across income quartiles.
+- [+] Question 3: What ZIP code(s) has the highest percentage of Hispanic population?
+  - Answer: ZIP codes 91618, 91608, 93043, 93606, 93627, 95724, and 96162 all have a 100% Hispanic residents population.
+  - Visualization: ![Q4 Visualization] 
 
 
-- [ ] Question 5: How does air quality (AQI) relate to the percentage of adults reporting fair or poor health? Is there a relationship? 
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q5 Visualization](https://example.com/path-to-image-5.png) ** Scatter plot with regression line (X = AQI, Y = % fair/poor health)
+- [+] Question 4: Do ZIP code(s) with higher % Hispanic Residents also report higher % Fair/Poor Health?
+  - Answer: After creating a scatterplot and checking for a correlation between "% Hispanic Residents" and "% Fair/Poor Health" by ZIP code, we observed that the scatterplot shows an upward-sloping trend. This suggests that ZIP codes with higher percentages of Hispanic residents tend to also report higher percentages of Fair/Poor Health.
+  Running a Pearson correlation, which measures the strength of a linear relationship between two variables (ranging from -1 to +1, where -1 is a negative correlation, 0 is no correlation, and +1 is a perfect positive correlation), we obtained a correlation coefficient of 0.391 with a p-value of 0.000. This indicates a moderate positive correlation that is statistically significant, meaning the observed relationship is unlikely due to random chance. In other words, ZIP codes with higher percentages of Hispanic residents tend to have somewhat higher percentages of residents reporting Fair/Poor Health.
+  - Visualization: ![Q3 Visualization]
+
+- [+] Question 5: Which ZIP code(s) reports the highest % of residents with disabilities?
+  - Answer: The bar graph reveals that the ZIP code with the highest percentage of residents with disabilities is ZIP code 95587, with 100% of its residents being disabled.
+  - Visualization: ![Q5 Visualization]
 
 
-- [ ] Question 6: Do lower-income ZIP codes tend to have worse air quality (higher AQI)?
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q6 Visualization](https://example.com/path-to-image-6.png) **Box plot (X = income quartile, Y = AQI) 
+- [+] Question 6: Do ZIP code(s) with higher % disability also report higher % Fair/Poor Health?
+  - Answer: Answer: After creating a scatterplot and checking for a correlation between "% Residents with Disabilities" and "% Fair/Poor Health" by ZIP code, we observed that the scatterplot shows a slight upward-sloping trend. This suggests that ZIP codes with higher percentages of disabled residents tend to also report slightly higher percentages of Fair/Poor Health. 
+  Running a Pearson correlation, which measures the strength of a linear relationship between two variables (ranging from -1 to +1, where -1 is a negative correlation, 0 is no correlation, and +1 is a perfect positive correlation), we obtained a correlation coefficient of 0.197 with a p-value of 0.000. This indicates a weak positive correlation that is statistically significant, meaning the observed relationship is unlikely due to random chance. In other words, ZIP codes with higher percentages of disabled residents tend to have somewhat higher percentages of residents reporting Fair/Poor Health, although the effect is weaker than that observed with % Hispanic residents.
+  - Visualization: ![Q6 Visualization] 
 
-- [ ] Question 7: Are ZIP codes that have both low income and poor air quality more likely to report higher rates of fair/poor health? 
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q7 Visualization](https://example.com/path-to-image-7.png) ** some sort of chart showing % fair/poor health by both income quartile and AQI category.
+- [+] Question 7: Which ZIP code(s) report the highest average physically unhealthy days?
+  - Answer: The bar graph shows the top 20 ZIP codes by Average Number of Physically Unhealthy Days. 17 of these ZIP codes share the same average value of approximately 4.16 physically unhealthy days, while the remaining three have slightly lower averages (4.1608 days). This indicates that many ZIP codes report very similar levels of physically unhealthy days across the population.
+  - Visualization: ![Q7 Visualization] 
 
-- [ ] Question 8: In areas with low income and poor air quality, do higher HPSA scores (low provider access) coincide with worse health outcomes?
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q8 Visualization](https://example.com/path-to-image-8.png)
+- [+] Question 8: Do ZIP codes with higher % Hispanic residents report more physically unhealthy days?
+  - Answer: Answer: After creating a scatterplot and checking for a correlation between "% Hispanic Residents" and "Average Number of Physically Unhealthy Days," we observed a slightly upward-sloping trend, suggesting that ZIP codes with higher percentages of Hispanic residents tend to report slightly more physically unhealthy days.
+  Running a Pearson correlation, which measures the strength of a linear relationship between two variables (ranging from -1 to +1, where -1 is a perfect negative correlation, 0 is no correlation, and +1 is a perfect positive correlation), we obtained a correlation coefficient of 0.250 with a p-value of 0.000. This indicates a weak positive correlation that is statistically significant, confirming that ZIP codes with higher percentages of Hispanic residents tend to report slightly more physically unhealthy days.
+  - Visualization: ![Q8 Visualization] 
 
-- [ ] Question 9: In lower-income, poor-air-quality ZIP codes, is the % of residents with limited English proficiency associated with worse health outcomes?
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q9 Visualization](https://example.com/path-to-image-9.png) **bar plot
+- [+] Question 9: : Do ZIP codes with higher % disabled residents report more physically unhealthy days? 
+  - Answer: Answer: After creating a scatterplot and checking for a correlation between "% Residents with Disabilities" and "Average Number of Physically Unhealthy Days," we observed an upward-sloping trend, suggesting that ZIP codes with higher percentages of Disabled residents tend to report more physically unhealthy days.
+  Running a Pearson correlation, which measures the strength of a linear relationship between two variables (ranging from -1 to +1, where -1 is a perfect negative correlation, 0 is no correlation, and +1 is a perfect positive correlation), we obtained a correlation coefficient of 0.322 with a p-value of 0.000. This indicates a moderate positive correlation that is statistically significant, confirming that ZIP codes with higher percentages of Disabled residents tend to report more physically unhealthy days.
+  - Visualization: ![Q9 Visualization]
 
-- [ ] Question 10: Which social determinant of health (income, insurance coverage, air quality, HPSA score, language proficiency) is the strongest predictor of poor health outcomes in California ZIP codes?
-  - Answer: [Placeholder for answer]
-  - Visualization: ![Q10 Visualization](https://example.com/path-to-image-10.png)
+- [+] Question 10: Do ZIP codes with higher % residents who don’t speak English well report higher % Fair/Poor Health?
+  - Answer: After creating a scatterplot and regression line between "% Residents with English Not Well" and "% Fair or Poor Health," we observed a slight upward-sloping trend. This suggests that ZIP codes with higher percentages of residents who do not speak English well tend to report slightly higher percentages of poor or fair health. 
+  Running a Pearson correlation, which measures the strength of a linear relationship between two variables (ranging from -1 to +1, where -1 is a negative correlation, 0 is no correlation, and +1 is a perfect positive correlation), we obtained a correlation coefficient of 0.153 with a p-value of 0.000. This indicates a weak positive correlation that is statistically significant, confirming that ZIP codes with higher limited English proficiency tend to report slightly worse health outcomes.
+  - Visualization: ![Q10 Visualization] 
