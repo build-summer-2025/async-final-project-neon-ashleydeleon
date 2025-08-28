@@ -20,7 +20,7 @@ I chose the California Social Determinants of Health (SDOH) dataset because Cali
 ## Questions
 - [+] Question 1: Which ZIP code(s) have the largest population of people who speak English not well?
   - Answer: ZIP code 90011 has the largest population of residents who speak English “not well,” with approximately 19,500 people. Other ZIP codes with large limited-English populations include 90202 and 90201 (both around 17,000 people). Most of the top ZIP codes are concentrated in Los Angeles County.
-  - Visualization: ![Q1 Visualization]
+  - Visualization: ![Q1 Visualization](Q1.png)
   
 - [+] Question 2: Which ZIP code(s) has the highest percentage of residents reporting Fair/Poor health? 
   - Answer: ZIP code 92227 in Imperial County, CA, has the highest percentage of individuals reporting 'Fair or Poor Health,' with 24% of the county's residents reporting this status. Furthermore, the top 20 ZIP codes also have very similar '% Fair or Poor Health'. 
