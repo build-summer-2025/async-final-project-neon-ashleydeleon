@@ -1,6 +1,5 @@
-## Repository name
-Your repostiory should be named something like `async-final-project-color-name`
-Example: `async-final-project-teal-Anas`
+## async-final-project-neon-AshleyDeleonGomez
+
 
 ## Dataset
 [California Social Determinants of Health (SDOH):
@@ -8,7 +7,7 @@ Merging health, social & environmental metrics across CA ZIP codes for community
 
 ## Why did I chose this dataset?
 
-I chose the California Social Determinants of Health (SDOH) dataset because California’s unique socioeconomic landscape---from newly wealthy tech billionaires to working-class families---offers an interesting case study in healthcare equity. While these groups live different realities, both share the universal need for quality healthcare that addresses their specific needs. The dataset captures critical factors such as demographics, uninsured populations, healthcare provider access, and environmental influences like air quality, all of which can shape health outcomes. This set of variables allows for a nuanced analysis of how social determinants can impact healthcare access and utilization across California’s diverse communities, highlighting disparities and guiding data-driven policy solutions.
+I chose the California Social Determinants of Health (SDOH) dataset because California’s unique socioeconomic landscape---from newly wealthy tech billionaires to working-class families---offers an interesting case study in healthcare equity. While these groups live different realities, both share the universal need for quality healthcare that addresses their specific needs. The dataset captures critical factors such as demographics, uninsured populations, healthcare provider access, and environmental influences like air quality, all of which can shape health outcomes. These variables allow for a nuanced analysis of how social determinants can impact healthcare access and utilization across California’s diverse communities, highlighting disparities and guiding data-driven policy solutions.
 
 ## Progress
 - [ YES ] Picked dataset
@@ -54,14 +53,14 @@ I chose the California Social Determinants of Health (SDOH) dataset because Cali
   - Visualization: ![Q7 Visualization](Q7.png)
 
 - [+] Question 8: Do ZIP codes with higher % Hispanic residents report more physically unhealthy days?
-  - Answer: Answer: After creating a scatterplot and checking for a correlation between "% Hispanic Residents" and "Average Number of Physically Unhealthy Days," we observed a slightly upward-sloping trend, suggesting that ZIP codes with higher percentages of Hispanic residents tend to report slightly more physically unhealthy days.
+  - Answer: After creating a scatterplot and checking for a correlation between "% Hispanic Residents" and "Average Number of Physically Unhealthy Days," we observed a slightly upward-sloping trend, suggesting that ZIP codes with higher percentages of Hispanic residents tend to report slightly more physically unhealthy days.
   Running a Pearson correlation, which measures the strength of a linear relationship between two variables (ranging from -1 to +1, where -1 is a perfect negative correlation, 0 is no correlation, and +1 is a perfect positive correlation), we obtained a correlation coefficient of 0.250 with a p-value of 0.000. This indicates a weak positive correlation that is statistically significant, confirming that ZIP codes with higher percentages of Hispanic residents tend to report slightly more physically unhealthy days.
   - Visualization: ![Q8 Visualization](Q8a.png)
   - Visualization: ![Q8 Visualization](Q8b.png)
 
 
 - [+] Question 9: : Do ZIP codes with higher % disabled residents report more physically unhealthy days? 
-  - Answer: Answer: After creating a scatterplot and checking for a correlation between "% Residents with Disabilities" and "Average Number of Physically Unhealthy Days," we observed an upward-sloping trend, suggesting that ZIP codes with higher percentages of Disabled residents tend to report more physically unhealthy days.
+  - Answer: After creating a scatterplot and checking for a correlation between "% Residents with Disabilities" and "Average Number of Physically Unhealthy Days," we observed an upward-sloping trend, suggesting that ZIP codes with higher percentages of Disabled residents tend to report more physically unhealthy days.
   Running a Pearson correlation, which measures the strength of a linear relationship between two variables (ranging from -1 to +1, where -1 is a perfect negative correlation, 0 is no correlation, and +1 is a perfect positive correlation), we obtained a correlation coefficient of 0.322 with a p-value of 0.000. This indicates a moderate positive correlation that is statistically significant, confirming that ZIP codes with higher percentages of Disabled residents tend to report more physically unhealthy days.
   - Visualization: ![Q9 Visualization](Q9.png)
 
